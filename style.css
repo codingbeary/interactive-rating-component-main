@@ -26,6 +26,9 @@ h1 {
   font-size: 15px;
   color: #969fad;
   line-height: 24px;
+  padding-right: 32px;
+  margin-right: 40px;
+  margin-bottom: 24px;
 }
 .star-background {
   background-color: #262e38;
@@ -45,6 +48,17 @@ img {
   display: flex;
   justify-content: space-around;
   margin-bottom: 32px;
+  margin-right: 40px;
+}
+.rating-background {
+  background-color: #262e38;
+  width: 51px;
+  height: 51px;
+  border-radius: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7c8798;
 }
 button {
   background-color: hsl(25, 97%, 53%);
@@ -55,6 +69,11 @@ button {
   border-radius: 22.5px;
   margin: 0 auto;
   text-transform: uppercase;
+  border: none;
+  margin-right: 40px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 .attribution {
   font-size: 11px;
