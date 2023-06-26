@@ -77,6 +77,7 @@ h1 {
 .rating-background:hover {
   background-color: #fc7614;
   color: white;
+  cursor: pointer;
 }
 .changedColor {
   background-color: #7c8798;
@@ -103,6 +104,42 @@ button:hover {
   background-color: white;
   color: #fc7614;
   cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+section img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 45px;
+  margin-bottom: 32px;
+}
+.background-section {
+  background-color: #262e38;
+  width: 193px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  border-radius: 22.5px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+section span {
+  color: #fc7614;
+  font-size: 15px;
+}
+
+section h2 {
+  color: white;
+  font-size: 2.8em;
+  text-align: center;
+}
+section p {
+  text-align: center;
+  margin: 7px 40px 45px 32px;
 }
 
 .attribution {

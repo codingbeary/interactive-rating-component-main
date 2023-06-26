@@ -25,7 +25,7 @@
   </head>
   <body>
     <main class="card">
-      <div class="card-content">
+      <div class="card-content" id="mainContent">
         <!-- Rating state start -->
         <div class="star-background">
           <div class="image">
@@ -39,27 +39,50 @@
           is appreciated to help us improve our offering!
         </p>
         <div class="ratings">
-          <div class="rating-background"><span class="rating">1</span></div>
-          <div class="rating-background"><span class="rating">2</span></div>
-          <div class="rating-background"><span class="rating">3</span></div>
-          <div class="rating-background"><span class="rating">4</span></div>
-          <div class="rating-background"><span class="rating">5</span></div>
+          <div class="rating-background" data-rating="1">
+            <span class="rating">1</span>
+          </div>
+          <div class="rating-background" data-rating="2">
+            <span class="rating">2</span>
+          </div>
+          <div class="rating-background" data-rating="3">
+            <span class="rating">3</span>
+          </div>
+          <div class="rating-background" data-rating="4">
+            <span class="rating">4</span>
+          </div>
+          <div class="rating-background" data-rating="5">
+            <span class="rating">5</span>
+          </div>
         </div>
 
         <button id="btn">Submit</button>
       </div>
+
+      <section class="thankYouContent">
+        <div id="thankYouContent" class="hidden">
+          <img
+            src="./images/illustration-thank-you.svg"
+            alt="mobile phone illustration"
+          />
+          <div class="background-section">
+            <span>
+              You selected
+              <span id="chosenRating"> </span> out of 5
+            </span>
+          </div>
+
+          <h2>Thank you!</h2>
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
+      </section>
     </main>
 
     <!-- Rating state end -->
 
-    <!-- Thank you state start -->
-
-    <!-- You selected
-    Add rating here -->
-    <!-- out of 5 Thank you! We appreciate you taking the time to give a rating. If
-    you ever need more support, don’t hesitate to get in touch! -->
-
-    <!-- Thank you state end -->
     <footer>
       <div class="attribution">
         Challenge by
