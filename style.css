@@ -5,63 +5,86 @@ body {
   align-items: center;
   min-height: 100vh;
   font-family: "Overpass", sans-serif;
+  font-size: 62.5%;
 }
+
 .card {
   background: radial-gradient(
     98.96% 98.96% at 50% 0%,
     #232a34 0%,
     #181e27 100%
   );
-  border-radius: 30px;
-  color: white;
-  width: 412px;
-  height: 416px;
-  padding: 32px;
+  border-radius: 3em;
+  width: 41.2em;
+  height: 41.6em;
 }
-h1 {
-  font-size: 28px;
-  font-weight: 700;
+
+.card-content {
+  margin: 3.2em;
 }
-.card p {
-  font-size: 15px;
-  color: #969fad;
-  line-height: 24px;
-  padding-right: 32px;
-  margin-right: 40px;
-  margin-bottom: 24px;
-}
+
 .star-background {
   background-color: #262e38;
-  width: 48px;
-  height: 48px;
-  border-radius: 48px;
-  margin-bottom: 30px;
+  width: 4.8em;
+  height: 4.8em;
+  border-radius: 4.8em;
 }
+
 .image {
   display: flex;
   justify-content: center;
 }
+
 img {
-  margin-top: 15px;
+  margin-top: 1.5em;
 }
+
+h1 {
+  font-size: 2.8em;
+  font-weight: 700;
+  color: white;
+}
+
+.card p {
+  font-size: 1.5em;
+  color: #969fad;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
 .ratings {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 32px;
-  margin-right: 40px;
 }
+
+.rating {
+  font-size: 1.6em;
+}
+
 .rating-background {
   background-color: #262e38;
-  width: 51px;
-  height: 51px;
-  border-radius: 51px;
+  width: 5.1em;
+  height: 5.1em;
+  border-radius: 5.1em;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #7c8798;
+  transition: all 260ms ease-in-out;
 }
+
+.rating-background:hover {
+  background-color: #fc7614;
+  color: white;
+}
+.changedColor {
+  background-color: #7c8798;
+  color: white;
+}
+
 button {
-  background-color: hsl(25, 97%, 53%);
+  background-color: #fc7614;
   color: white;
   display: block;
   width: 341px;
@@ -70,18 +93,28 @@ button {
   margin: 0 auto;
   text-transform: uppercase;
   border: none;
-  margin-right: 40px;
-  font-size: 15px;
+  font-size: 1.5em;
   font-weight: 700;
   letter-spacing: 2px;
+  transition: all 260ms ease-in-out;
 }
+
+button:hover {
+  background-color: white;
+  color: #fc7614;
+  cursor: pointer;
+}
+
 .attribution {
-  font-size: 11px;
+  font-size: 1.1em;
 }
+
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(0, 2%, 61%);
 }
+
 footer {
   position: fixed;
   bottom: 0;
+  color: hsl(0, 0%, 36%);
 }
